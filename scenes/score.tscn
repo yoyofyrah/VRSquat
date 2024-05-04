@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnq0c0tt0snmq"]
+
+[ext_resource type="Script" path="res://scripts/score.gd" id="1_lsod4"]
+[ext_resource type="Texture2D" uid="uid://cr7nabe7iga5h" path="res://art/hudHeart_full.png" id="2_457q8"]
+
+[node name="Score" type="Control"]
+layout_mode = 3
+anchor_right = 0.26
+anchor_bottom = 0.122
+offset_right = 0.479977
+offset_bottom = -0.0560057
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lsod4")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 5.0
+offset_top = 4.0
+offset_right = 37.0
+offset_bottom = 81.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "0"
+
+[node name="Life1" type="Sprite2D" parent="."]
+position = Vector2(205, 44.2)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_457q8")
+
+[node name="Life2" type="Sprite2D" parent="."]
+position = Vector2(236, 44.2)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_457q8")
+
+[node name="Life3" type="Sprite2D" parent="."]
+position = Vector2(267, 44.2)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_457q8")

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c2v52ewwhqpa2"]
+
+[node name="HandzoneWarning" type="Control"]
+layout_mode = 3
+anchor_right = 0.821
+anchor_bottom = 0.207
+offset_right = 0.207954
+offset_bottom = -0.136011
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Text" type="Label" parent="."]
+layout_mode = 0
+offset_right = 400.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(1, 0.219608, 0.168627, 1)
+theme_override_font_sizes/font_size = 98
+text = "Get those hands up!"
+horizontal_alignment = 1
